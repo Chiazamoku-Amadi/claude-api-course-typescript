@@ -4,3 +4,6 @@ node_modules
 # Env
 .env
 !.env.example
+
+.backups/
+dist/
