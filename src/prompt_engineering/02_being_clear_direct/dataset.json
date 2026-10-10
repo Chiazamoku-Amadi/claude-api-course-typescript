@@ -1,0 +1,49 @@
+[
+  {
+    "promptInputs": {
+      "height": "195",
+      "weight": "120",
+      "goal": "muscle gain",
+      "restrictions": "none"
+    },
+    "solutionCriteria": [
+      "Meal plan covers exactly 1 day with 4-5 meals",
+      "Macronutrient targets scaled appropriately for 120kg athlete (approximately 2.4g protein per kg body weight minimum)",
+      "Total daily caloric intake supports muscle gain for heavyweight athlete (estimated 3500-4000 kcal range)",
+      "Meal plan is presented in compact, concise format without excessive detail"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a heavyweight athlete (120kg, 195cm) aiming for muscle gain with no dietary restrictions - verifies the prompt can scale macronutrient recommendations for larger body mass and anabolic goals"
+  },
+  {
+    "promptInputs": {
+      "height": "165",
+      "weight": "55",
+      "goal": "marathon training",
+      "restrictions": "vegan"
+    },
+    "solutionCriteria": [
+      "Meal plan covers one full day with breakfast, lunch, dinner, and snacks",
+      "High carbohydrate content (60-70% of calories) suitable for endurance training",
+      "All meals and snacks are vegan with adequate plant-based protein sources",
+      "Calorie-dense foods included to meet energy demands for a 55kg athlete in marathon training"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a lightweight endurance athlete (55kg, 165cm) training for a marathon with vegan dietary restrictions - evaluates the prompt's ability to create high-carb, calorie-dense plans while accommodating plant-based protein sources"
+  },
+  {
+    "promptInputs": {
+      "height": "152",
+      "weight": "48",
+      "goal": "weight loss",
+      "restrictions": "gluten-free, dairy-free, nut allergy"
+    },
+    "solutionCriteria": [
+      "Meal plan is compact and covers 1 full day (breakfast, lunch, dinner, and optional snack)",
+      "All meals strictly adhere to gluten-free, dairy-free, and nut-free requirements",
+      "Caloric intake supports modest weight loss goal for a 48kg athlete while maintaining adequate protein and micronutrients"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a petite athlete (48kg, 152cm) with a weight loss goal and multiple restrictions (gluten-free, dairy-free, nut allergy) - challenges the prompt to balance caloric deficit with nutritional completeness across severely limited food options"
+  }
+]

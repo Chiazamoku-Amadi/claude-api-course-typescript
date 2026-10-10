@@ -1,0 +1,48 @@
+[
+  {
+    "promptInputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training - high-performance endurance athlete",
+      "restrictions": "None"
+    },
+    "solutionCriteria": [
+      "Meal plan covers all meals for one full day (breakfast, lunch, dinner, snacks)",
+      "Carbohydrate-focused macronutrient distribution appropriate for endurance training (55-65% carbs)",
+      "Total daily calories align with marathon runner energy expenditure (approximately 2800-3200 calories)",
+      "Meal plan is presented in compact, concise format suitable for quick reference"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-performance endurance athlete (marathon runner) with no dietary restrictions - validates ability to create high-calorie, carbohydrate-focused meal plan with appropriate macronutrient distribution"
+  },
+  {
+    "promptInputs": {
+      "height": "178",
+      "weight": "82",
+      "goal": "Strength training with muscle gain",
+      "restrictions": "Vegetarian, nut allergy"
+    },
+    "solutionCriteria": [
+      "Meal plan covers all three meals and respects both vegetarian and nut-allergy constraints",
+      "Includes adequate protein sources (minimum 1.6g per kg body weight) suitable for strength training",
+      "Meals are practical and compact, suitable for a single day without excessive complexity"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-training athlete with multiple dietary restrictions (vegetarian, nut allergy) - validates meal plan adaptability and ensures nutritional completeness despite ingredient limitations"
+  },
+  {
+    "promptInputs": {
+      "height": "168 cm",
+      "weight": "62 kg",
+      "goal": "weight gain",
+      "restrictions": "none"
+    },
+    "solutionCriteria": [
+      "Meal plan contains 4-5 meals/snacks to support caloric surplus for weight gain",
+      "Portion sizes are appropriately scaled for a 62 kg athlete (approximately 2800-3200 calories total)",
+      "Plan is formatted as a compact, single-day schedule with meal times and basic descriptions"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a lean, shorter athlete aiming for weight gain with minimal restrictions - validates scaling of portion sizes and meal frequency appropriate to body composition goals"
+  }
+]

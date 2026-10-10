@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Parse an AWS S3 bucket name from a full S3 URI (e.g., 's3://my-bucket-name/path/to/file.txt') and extract just the bucket name",
+    "format": "regex",
+    "solutionCriteria": "The regex should correctly match and capture bucket names from S3 URIs, handling standard S3 naming conventions (lowercase letters, numbers, hyphens)"
+  },
+  {
+    "task": "Create a JSON configuration object for an AWS Lambda function that specifies the function name, runtime (Node.js 18), memory (256MB), timeout (30 seconds), and environment variables for a database connection string",
+    "format": "json",
+    "solutionCriteria": "The JSON should be valid, include all required AWS Lambda configuration fields, and properly structure nested objects for environment variables"
+  },
+  {
+    "task": "Write a JavaScript function that takes an AWS IAM ARN string (e.g., 'arn:aws:iam::123456789012:user/username') and returns an object containing the account ID and the resource name (username)",
+    "format": "javaScript",
+    "solutionCriteria": "The function should correctly parse ARN format, extract the account ID (12-digit number) and resource identifier, and return an object with properties for each component"
+  }
+]

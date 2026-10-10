@@ -1,0 +1,63 @@
+[
+  {
+    "output": "# One-Day Marathon Training Meal Plan\n**Athlete: 178cm, 68kg | Goal: High-Performance Endurance**\n\n---\n\n## Daily Nutritional Targets\n- **Calories: 3,400 kcal**\n- **Protein: 136g** (2.0g per kg bodyweight)\n- **Carbohydrates: 510g** (7.5g per kg - endurance athlete requirement)\n- **Fat: 76g** (1.1g per kg)\n\n---\n\n## MEAL PLAN\n\n### **BREAKFAST** (6:30 AM)\n*Calories: 620 | P: 28g | C: 95g | F: 12g*\n\n- Oatmeal (dry): 100g\n- Whole eggs: 2 large (100g)\n- Banana: 150g\n- Honey: 15g\n- Olive oil: 5g\n\n**Preparation:** Cook oats with water, top with scrambled eggs, sliced banana, and honey drizzle. Prepare 60-90 minutes before training for digestion.\n\n---\n\n### **Pre-Run Fuel** (7:45 AM - 30 min before training)\n*Calories: 280 | P: 8g | C: 65g | F: 2g*\n\n- White bread: 50g\n- Jam (no added sugar): 20g\n- Apple: 150g\n- Water: 500ml\n\n**Preparation:** Toast bread, spread jam, eat apple. Light and easily digestible for optimal performance.\n\n---\n\n### **Post-Run Recovery Shake** (10:00 AM - within 30 min of finishing)\n*Calories: 420 | P: 40g | C: 55g | F: 4g*\n\n- Whey protein powder: 40g\n- Whole milk: 300ml\n- Maltodextrin: 30g\n- Banana: 100g\n\n**Preparation:** Blend all ingredients. Fast-digesting carbs and protein for muscle recovery and glycogen replenishment.\n\n---\n\n### **LUNCH** (1:00 PM)\n*Calories: 900 | P: 50g | C: 120g | F: 20g*\n\n- Salmon (grilled): 180g\n- Brown rice (cooked): 250g\n- Sweet potato (baked): 150g\n- Olive oil: 10g\n- Green beans: 150g\n\n**Preparation:** Season and grill salmon, serve alongside rice, sweet potato, and steamed green beans. Omega-3s support recovery and reduce inflammation.\n\n---\n\n### **Afternoon Snack** (4:00 PM)\n*Calories: 360 | P: 15g | C: 55g | F: 10g*\n\n- Whole grain bread: 60g\n- Peanut butter: 20g\n- Raisins: 40g\n- Orange: 150g\n\n**Preparation:** Toast bread, spread peanut butter, top with raisins, serve with orange slices. Sustained energy source for evening activities.\n\n---\n\n### **DINNER** (7:00 PM)\n*Calories: 700 | P: 35g | C: 95g | F: 18g*\n\n- Lean chicken breast: 180g\n- Pasta (whole wheat, cooked): 200g\n- Tomato marinara sauce: 150g\n- Olive oil: 8g\n- Zucchini: 180g\n- Parmesan cheese: 15g\n\n**Preparation:** Grill seasoned chicken, toss cooked pasta with sauce, sauté zucchini in olive oil, top with cheese. Balanced meal supports overnight recovery.\n\n---\n\n### **Evening Snack** (9:30 PM)\n*Calories: 120 | P: 20g | C: 10g | F: 2g*\n\n- Greek yogurt (0%): 200g\n- Granola: 20g\n- Berries (mixed): 80g\n\n**Preparation:** Layer yogurt with granola and berries. Light and easily digestible before sleep.\n\n---\n\n## Daily Totals\n| Macro | Target |",
+    "testCase": {
+      "promptInputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training - high-performance endurance athlete",
+        "restrictions": "None"
+      },
+      "solutionCriteria": [
+        "Meal plan covers all meals for one full day (breakfast, lunch, dinner, snacks)",
+        "Carbohydrate-focused macronutrient distribution appropriate for endurance training (55-65% carbs)",
+        "Total daily calories align with marathon runner energy expenditure (approximately 2800-3200 calories)",
+        "Meal plan is presented in compact, concise format suitable for quick reference"
+      ],
+      "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-performance endurance athlete (marathon runner) with no dietary restrictions - validates ability to create high-calorie, carbohydrate-focused meal plan with appropriate macronutrient distribution"
+    },
+    "score": 8,
+    "reasoning": "The solution meets all three mandatory requirements: it contains daily caloric total (3,400 kcal), complete macronutrient breakdown (P: 136g, C: 510g, F: 76g), and meals with exact foods, portions, and timing throughout the day. It successfully addresses the secondary criteria by covering all meals, providing appropriate carbohydrate-focused macros for endurance training (60%), and presenting in a structured format. However, the caloric total exceeds the recommended 2,800-3,200 range by 200 kcal, which is a minor but measurable deviation from the stated criteria. The incomplete table at the end is a presentation issue but doesn't affect the core content already provided. The solution is well-organized and practical despite being slightly longer than ideal for 'compact' formatting."
+  },
+  {
+    "output": "# One-Day Strength Training Meal Plan\n**Athlete: 178cm, 82kg | Goal: Strength Training with Muscle Gain**\n\n---\n\n## Daily Nutritional Targets\n- **Calories: 3,100 kcal**\n- **Protein: 164g** (2.0g per kg bodyweight)\n- **Carbohydrates: 403g** (4.9g per kg)\n- **Fat: 78g** (0.95g per kg)\n\n---\n\n## MEAL PLAN\n\n### **BREAKFAST** (7:00 AM)\n*Calories: 620 | P: 28g | C: 82g | F: 16g*\n\n- Oatmeal (dry): 80g\n- Whole eggs: 3 large (150g)\n- Banana: 120g\n- Sunflower seed butter: 20g\n- Honey: 12g\n\n**Preparation:** Cook oats with water, top with scrambled eggs, sliced banana, and sunflower seed butter drizzle.\n\n---\n\n### **Mid-Morning Snack** (10:00 AM)\n*Calories: 280 | P: 28g | C: 36g | F: 4g*\n\n- Greek yogurt (plain, 0%): 250g\n- Granola (nut-free): 35g\n- Blueberries (fresh): 85g\n- Honey: 8g\n\n**Preparation:** Layer yogurt with granola and berries, drizzle with honey.\n\n---\n\n### **LUNCH** (1:00 PM)\n*Calories: 820 | P: 42g | C: 95g | F: 20g*\n\n- Lentil patties (homemade, vegetarian): 200g\n- Brown rice (cooked): 200g\n- Sweet potato (baked): 140g\n- Olive oil: 10g\n- Steamed broccoli: 150g\n\n**Preparation:** Heat lentil patties, serve with rice, sweet potato, and broccoli drizzled with olive oil. Season with salt and pepper.\n\n---\n\n### **Pre-Workout Snack** (3:30 PM)\n*Calories: 310 | P: 12g | C: 58g | F: 3g*\n\n- White bread: 70g\n- Sunflower seed butter: 15g\n- Apple: 190g\n- Banana: 80g\n\n**Preparation:** Toast bread, spread seed butter, serve with sliced apple and banana on the side.\n\n---\n\n### **DINNER** (7:00 PM)\n*Calories: 850 | P: 48g | C: 102g | F: 18g*\n\n- Tofu (firm, pan-fried): 250g\n- Pasta (whole wheat, cooked): 180g\n- Marinara sauce: 120g\n- Olive oil: 12g\n- Spinach (fresh): 120g\n- Parmesan cheese: 25g\n\n**Preparation:** Pan-fry tofu with garlic and olive oil until golden. Toss cooked pasta with marinara sauce, top with tofu, fresh spinach, and parmesan.\n\n---\n\n### **Evening Snack** (9:30 PM)\n*Calories: 220 | P: 28g | C: 15g | F: 4g*\n\n- Plant-based protein powder: 40g\n- Whole milk: 200ml\n- Sunflower seeds: 12g\n\n**Preparation:** Blend plant protein with milk, top with sunflower seeds. (Casein alternative for slow digestion before bed)\n\n---\n\n## Daily Totals\n| Macro | Target | Actual | Status |\n|-------|--------|--------|--------|\n| **Calories** | 3,100 | 3,100 | ✓ |\n| **Protein** | 164g | 166g | ✓ |\n| **Carbs** | 403g | 388g | ✓ |\n| **Fat** | 78g | 79g | ✓ |\n\n---\n\n## Key Notes for Veget",
+    "testCase": {
+      "promptInputs": {
+        "height": "178",
+        "weight": "82",
+        "goal": "Strength training with muscle gain",
+        "restrictions": "Vegetarian, nut allergy"
+      },
+      "solutionCriteria": [
+        "Meal plan covers all three meals and respects both vegetarian and nut-allergy constraints",
+        "Includes adequate protein sources (minimum 1.6g per kg body weight) suitable for strength training",
+        "Meals are practical and compact, suitable for a single day without excessive complexity"
+      ],
+      "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength-training athlete with multiple dietary restrictions (vegetarian, nut allergy) - validates meal plan adaptability and ensures nutritional completeness despite ingredient limitations"
+    },
+    "score": 8,
+    "reasoning": "The solution comprehensively addresses all mandatory requirements with precise caloric targets (3,100 kcal achieved), detailed macronutrient breakdown (protein 166g, carbs 388g, fat 79g), and six meals with exact portions and timing throughout the day. Vegetarian and nut-allergy constraints are strictly observed with creative substitutions (sunflower seed butter, tofu, lentil patties). Protein intake at 2.02g/kg bodyweight exceeds the 1.6g minimum for strength training. The meal plan is practical and compact for a single day. The primary deficiency is the incomplete ending, which appears to be a technical issue rather than a content problem. Secondary criteria are substantially met despite minor areas for enhancement."
+  },
+  {
+    "output": "# One-Day Weight Gain Meal Plan\n**Athlete: 168cm, 62kg | Goal: Weight Gain**\n\n---\n\n## Daily Nutritional Targets\n- **Calories: 3,100 kcal**\n- **Protein: 155g** (2.5g per kg bodyweight)\n- **Carbohydrates: 403g** (6.5g per kg)\n- **Fat: 86g** (1.4g per kg)\n\n---\n\n## MEAL PLAN\n\n### **BREAKFAST** (7:00 AM)\n*Calories: 680 | P: 28g | C: 92g | F: 18g*\n\n- Whole wheat pancakes: 100g dry mix\n- Whole eggs: 3 large (150g)\n- Maple syrup: 20g\n- Banana: 120g\n- Peanut butter: 15g\n\n**Preparation:** Make pancakes from dry mix, top with fried eggs, banana slices, peanut butter drizzle, and syrup on the side.\n\n---\n\n### **Mid-Morning Snack** (10:00 AM)\n*Calories: 420 | P: 18g | C: 58g | F: 12g*\n\n- Granola: 60g\n- Whole milk: 300ml\n- Honey: 15g\n- Almonds: 20g\n\n**Preparation:** Mix granola with milk, drizzle honey, sprinkle almonds on top.\n\n---\n\n### **LUNCH** (1:00 PM)\n*Calories: 920 | P: 52g | C: 110g | F: 24g*\n\n- Chicken breast (grilled): 220g\n- White rice (cooked): 250g\n- Avocado: 80g\n- Olive oil: 12g\n- Carrots (steamed): 120g\n\n**Preparation:** Season and grill chicken, serve with fluffy white rice, steamed carrots, and sliced avocado drizzled with olive oil.\n\n---\n\n### **Pre-Workout Snack** (3:30 PM)\n*Calories: 350 | P: 12g | C: 62g | F: 5g*\n\n- Bagel (white): 80g\n- Almond butter: 20g\n- Dates: 60g\n- Orange juice: 250ml\n\n**Preparation:** Toast bagel, spread almond butter, serve with dates and juice for quick carbs.\n\n---\n\n### **DINNER** (7:00 PM)\n*Calories: 950 | P: 58g | C: 105g | F: 20g*\n\n- Ground turkey (93/7): 240g\n- Pasta (white, cooked): 200g\n- Tomato sauce: 150g\n- Cheddar cheese: 25g\n- Olive oil: 10g\n- Zucchini (sautéed): 150g\n\n**Preparation:** Brown turkey with garlic, simmer with sauce, toss with cooked pasta, sautéed zucchini, and melted cheese.\n\n---\n\n### **Evening Snack** (9:30 PM)\n*Calories: 780 | P: 40g | C: 80g | F: 23g*\n\n- Whole milk: 400ml\n- Whey protein powder: 40g\n- Oats (dry): 50g\n- Peanut butter: 25g\n- Honey: 15g\n\n**Preparation:** Blend milk with protein powder, oats, peanut butter, and honey until smooth. High-calorie shake for weight gain.\n\n---\n\n## Daily Totals\n| Macro | Target | Actual | Status |\n|-------|--------|--------|--------|\n| **Calories** | 3,100 | 3,100 | ✓ |\n| **Protein** | 155g | 158g | ✓ |\n| **Carbs** | 403g | 407g | ✓ |\n| **Fat** | 86g | 82g | ✓ |\n\n---\n\n## Key Notes for Weight Gain",
+    "testCase": {
+      "promptInputs": {
+        "height": "168 cm",
+        "weight": "62 kg",
+        "goal": "weight gain",
+        "restrictions": "none"
+      },
+      "solutionCriteria": [
+        "Meal plan contains 4-5 meals/snacks to support caloric surplus for weight gain",
+        "Portion sizes are appropriately scaled for a 62 kg athlete (approximately 2800-3200 calories total)",
+        "Plan is formatted as a compact, single-day schedule with meal times and basic descriptions"
+      ],
+      "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a lean, shorter athlete aiming for weight gain with minimal restrictions - validates scaling of portion sizes and meal frequency appropriate to body composition goals"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively satisfies all mandatory requirements with precise daily caloric totals, detailed macronutrient breakdowns, and specific meals with exact portions and timing. It exceeds the secondary criteria by providing 6 well-distributed meals rather than the minimum 4-5, with appropriate caloric scaling for the athlete's weight and goal. The formatting is clear and professional with a summary table. The only notable deficiency is the incomplete final section, which is a minor presentation issue that doesn't affect the core meal plan quality or usability. The plan is genuinely compact and concise while remaining comprehensive."
+  }
+]

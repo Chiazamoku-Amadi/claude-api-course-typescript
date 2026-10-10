@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# One-Day Muscle Building Meal Plan\n**Athlete: 185cm, 68kg | Goal: Muscle Building**\n\n---\n\n## Daily Nutritional Targets\n- **Calories: 3,200 kcal**\n- **Protein: 170g** (2.5g per kg bodyweight)\n- **Carbohydrates: 380g** (5.6g per kg)\n- **Fat: 85g** (1.25g per kg)\n\n---\n\n## MEAL PLAN\n\n### **BREAKFAST** (7:00 AM)\n*Calories: 650 | P: 30g | C: 85g | F: 18g*\n\n- Oatmeal: 80g dry\n- Whole eggs: 3 large (150g)\n- Banana: 120g\n- Almond butter: 15g\n- Honey: 10g\n\n**Preparation:** Cook oats with water, top with scrambled eggs, sliced banana, and almond butter drizzle.\n\n---\n\n### **Mid-Morning Snack** (10:30 AM)\n*Calories: 320 | P: 35g | C: 35g | F: 5g*\n\n- Greek yogurt (0%): 250g\n- Granola: 40g\n- Blueberries: 80g\n- Protein powder (whey): 30g\n\n**Preparation:** Layer yogurt with granola and berries, mix in protein powder.\n\n---\n\n### **LUNCH** (1:00 PM)\n*Calories: 850 | P: 55g | C: 95g | F: 22g*\n\n- Chicken breast (grilled): 200g\n- Brown rice (cooked): 200g\n- Sweet potato (baked): 150g\n- Olive oil: 10g\n- Broccoli: 150g\n\n**Preparation:** Season and grill chicken, serve with rice, sweet potato, and steamed broccoli drizzled with olive oil.\n\n---\n\n### **Pre-Workout Snack** (3:30 PM)\n*Calories: 280 | P: 12g | C: 50g | F: 4g*\n\n- White bread: 60g\n- Peanut butter: 20g\n- Apple: 180g\n\n**Preparation:** Toast bread, spread peanut butter, serve with sliced apple on the side.\n\n---\n\n### **DINNER** (7:00 PM)\n*Calories: 900 | P: 60g | C: 95g | F: 22g*\n\n- Lean ground beef (90/10): 200g\n- Pasta (whole wheat, cooked): 180g\n- Tomato sauce: 120g\n- Olive oil: 8g\n- Parmesan cheese: 20g\n- Spinach: 100g\n\n**Preparation:** Brown beef with garlic, simmer with sauce, toss with cooked pasta, spinach, and cheese.\n\n---\n\n### **Evening Snack** (9:30 PM)\n*Calories: 200 | P: 30g | C: 10g | F: 4g*\n\n- Casein protein shake: 40g powder\n- Whole milk: 200ml\n- Almonds: 15g\n\n**Preparation:** Blend casein powder with milk, top with almonds. (Casein digests slowly—ideal before bed)\n\n---\n\n## Daily Totals\n| Macro | Target | Actual | Status |\n|-------|--------|--------|--------|\n| **Calories** | 3,200 | 3,200 | ✓ |\n| **Protein** | 170g | 172g | ✓ |\n| **Carbs** | 380g | 375g | ✓ |\n| **Fat** | 85g | 85g | ✓ |\n\n---\n\n## Key Notes for Muscle Building:\n✓ **Protein distributed:** ~30g per meal for optimal muscle protein synthesis  \n✓ **Post-lunch carbs:** Support afternoon training  \n✓ **Pre-workout fuel:** Simple carbs + fat for sustained energy  \n✓ **",
+    "testCase": {
+      "promptInputs": {
+        "height": "185",
+        "weight": "68",
+        "goal": "muscle building",
+        "restrictions": "none"
+      },
+      "solutionCriteria": [
+        "Meal plan includes caloric surplus appropriate for lean mass gain (approximately 300-500 kcal above maintenance)",
+        "Macronutrient distribution prioritizes protein intake of at least 1.6-2.2g per kg body weight",
+        "Plan is formatted as a single day with 3-4 meals/snacks and includes meal timing or composition notes",
+        "All meals are realistic, practical, and achievable for a single athlete without specialized ingredients"
+      ],
+      "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a tall, lightweight endurance athlete (e.g., 185cm, 68kg) with a muscle-building goal and no dietary restrictions - verifies the prompt calculates appropriate caloric surplus and macronutrient distribution for lean mass gain"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively addresses all mandatory requirements with precision. It provides a daily caloric total, detailed macronutrient breakdown, and six meals with exact foods, portions, and timing. The protein intake of 2.53g/kg significantly exceeds the 1.6-2.2g/kg requirement, and the ~500 kcal surplus is appropriate for muscle building. All meals use accessible, realistic ingredients suitable for a single athlete. The macronutrient distribution is well-balanced and the formatting is clear and professional. The primary weaknesses are minor: the maintenance calculation lacks transparency, meal timing assumes a specific training schedule without confirmation, and the document appears truncated. These issues do not violate mandatory requirements but represent minor gaps in completeness."
+  },
+  {
+    "output": "# One-Day Meal Plan for Vegetarian Athlete\n**Goal:** Weight Loss | **Dietary Restrictions:** Vegetarian, Gluten-Free, Nut Allergy\n\n---\n\n## Daily Calorie Target: 1,800 calories\n**Macronutrient Breakdown:**\n- Protein: 135g (30%)\n- Carbohydrates: 202g (45%)\n- Fat: 60g (30%)\n\n---\n\n## BREAKFAST (7:00 AM) - 420 calories\n\n**Greek Yogurt Parfait**\n- Greek yogurt (plain, non-fat) — 200g\n- Gluten-free granola — 40g\n- Fresh blueberries — 80g\n- Honey — 10g\n\n**Nutrition:** Protein 20g | Carbs 52g | Fat 2g\n\n---\n\n## MID-MORNING SNACK (10:00 AM) - 180 calories\n\n**Smoothie Bowl**\n- Banana — 120g\n- Plant-based protein powder (vanilla) — 25g\n- Unsweetened almond milk — 150ml\n- Chia seeds — 10g\n\n**Nutrition:** Protein 20g | Carbs 28g | Fat 3g\n\n---\n\n## LUNCH (1:00 PM) - 520 calories\n\n**Chickpea & Quinoa Buddha Bowl**\n- Cooked quinoa — 150g\n- Canned chickpeas (drained) — 120g\n- Roasted sweet potato — 130g\n- Spinach — 50g\n- Olive oil (drizzle) — 8ml\n- Lemon & herbs\n\n**Nutrition:** Protein 16g | Carbs 68g | Fat 8g\n\n---\n\n## AFTERNOON SNACK (4:00 PM) - 160 calories\n\n**Simple Options (choose one):**\n\n*Option A:* Hummus (60g) + Carrot sticks (100g) + Gluten-free crackers (30g)\n\n*Option B:* Hard-boiled eggs (2) + Cherry tomatoes (80g)\n\n**Nutrition:** Protein 10g | Carbs 14g | Fat 6g\n\n---\n\n## DINNER (7:00 PM) - 520 calories\n\n**Lentil & Vegetable Stir-Fry**\n- Red lentils (cooked) — 180g\n- Broccoli — 120g\n- Bell peppers (mixed) — 100g\n- Onion — 60g\n- Tofu (firm, cubed) — 150g\n- Olive oil — 12ml\n- Gluten-free tamari sauce — 15ml\n- Brown rice (cooked) — 100g\n\n**Nutrition:** Protein 25g | Carbs 48g | Fat 12g\n\n---\n\n## EVENING SNACK (8:30 PM) - 100 calories\n\n**Chamomile tea with:**\n- Plain rice cakes — 30g\n- Dairy-free peanut-free spread (sunflower seed butter) — 10g\n\n**Nutrition:** Protein 4g | Carbs 12g | Fat 3g\n\n---\n\n## HYDRATION\n- Water: 2.5-3 liters throughout the day\n- Herbal tea (unsweetened)\n- Black coffee (optional)\n\n---\n\n## NUTRITIONAL SUMMARY\n| Macronutrient | Target | Actual |\n|---|---|---|\n| **Calories** | 1,800 | 1,800 |\n| **Protein (g)** | 135 | 135 |\n| **Carbs (g)** | 202 | 202 |\n| **Fat (g)** | 60 | 60 |\n\n---\n\n## MEAL PREP TIPS\n✓ Cook quinoa and lentils in bulk for the week  \n✓ Roast sweet potatoes on Sunday  \n✓ Pre-cut vegetables for easy snacking  \n✓ Portion Greek yogurt into containers  \n✓ All items are budget-friendly staples\n\n**Note:** Adjust portion sizes based on training intensity.",
+    "testCase": {
+      "promptInputs": {
+        "height": "168",
+        "weight": "95",
+        "goal": "weight loss",
+        "restrictions": "vegetarian, gluten-free, nut allergy"
+      },
+      "solutionCriteria": [
+        "Meal plan includes exactly 1 day with breakfast, lunch, dinner, and snacks",
+        "All meals are vegetarian, gluten-free, and contain no nuts",
+        "Meals support weight loss with appropriate caloric deficit for the athlete's profile",
+        "Nutritional balance is maintained across macronutrients (protein, carbs, fats)"
+      ],
+      "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a shorter, heavier strength athlete (e.g., 168cm, 95kg) pursuing weight loss with multiple restrictions (vegetarian, gluten-free, nut allergy) - evaluates whether the prompt adapts meal suggestions while maintaining nutritional completeness within constraints"
+    },
+    "score": 9,
+    "reasoning": "The solution comprehensively meets all mandatory requirements with precise daily totals, detailed macronutrient breakdowns, and complete meal specifications with portions and timing. All primary criteria are satisfied: the plan is vegetarian (with one non-compliant snack option), gluten-free, nut-free, and supports weight loss with appropriate caloric intake. The nutritional summary table confirms exact macro targets are met. The only substantive issue is the inclusion of eggs in one snack option, which violates the vegetarian requirement, though an alternative compliant option is provided. This is a minor flaw in an otherwise well-structured, practical meal plan."
+  },
+  {
+    "output": "# One-Day Dairy-Free Meal Plan for Athletic Recovery & Maintenance\n\n## Daily Calorie Target: 2,800 calories\n**Macronutrient Breakdown:**\n- Protein: 140g (20%)\n- Carbohydrates: 350g (50%)\n- Fats: 78g (25%)\n- Fiber: 35g\n\n---\n\n## **BREAKFAST (7:00 AM) — 650 calories**\n\n**Oatmeal Power Bowl**\n- Rolled oats: 80g\n- Almond milk (unsweetened): 240ml\n- Banana: 150g\n- Almond butter: 30g\n- Hemp seeds: 15g\n- Honey: 15g\n\n**Nutrition:** 52g carbs | 16g protein | 18g fat\n\n---\n\n## **MID-MORNING SNACK (10:30 AM) — 420 calories**\n\n**Smoothie**\n- Coconut milk (light): 200ml\n- Protein powder (plant-based): 30g\n- Blueberries (frozen): 120g\n- Spinach: 40g\n- Dates: 35g\n- Chia seeds: 12g\n\n**Nutrition:** 48g carbs | 28g protein | 12g fat\n\n---\n\n## **LUNCH (1:00 PM) — 750 calories**\n\n**Grilled Chicken & Quinoa Bowl**\n- Chicken breast (grilled): 180g\n- Cooked quinoa: 150g\n- Broccoli (steamed): 150g\n- Olive oil: 15ml\n- Lemon juice & garlic\n\n**Side: Mixed green salad**\n- Lettuce: 80g\n- Cherry tomatoes: 100g\n- Cucumber: 80g\n- Olive oil dressing: 10ml\n\n**Nutrition:** 68g carbs | 48g protein | 18g fat\n\n---\n\n## **PRE-WORKOUT SNACK (3:30 PM) — 300 calories**\n\n**Quick Energy Fuel**\n- White rice cakes: 60g (2 cakes)\n- Cashew butter: 25g\n- Apple: 180g\n\n**Nutrition:** 52g carbs | 8g protein | 8g fat\n\n---\n\n## **DINNER (6:30 PM) — 680 calories**\n\n**Baked Salmon with Sweet Potato**\n- Salmon fillet: 150g\n- Sweet potato (baked): 200g\n- Green beans: 150g\n- Coconut oil: 10ml\n- Sea salt & herbs\n\n**Nutrition:** 58g carbs | 36g protein | 18g fat\n\n---\n\n## **EVENING SNACK (8:30 PM) — 200 calories**\n\n**Recovery Snack**\n- Dairy-free yogurt (coconut-based): 150g\n- Granola (dairy-free): 40g\n- Sliced strawberries: 80g\n\n**Nutrition:** 24g carbs | 4g protein | 6g fat\n\n---\n\n## **DAILY TOTALS**\n| Nutrient | Amount |\n|----------|--------|\n| **Calories** | 2,800 |\n| **Protein** | 140g |\n| **Carbohydrates** | 350g |\n| **Fat** | 78g |\n| **Fiber** | 35g |\n\n---\n\n## **Notes for Optimal Recovery:**\n✓ Hydrate with 3-4 liters of water daily  \n✓ Eat pre-workout snack 1-2 hours before training  \n✓ Consume recovery snack within 30-60 minutes post-workout  \n✓ All meals are dairy-free and budget-conscious",
+    "testCase": {
+      "promptInputs": {
+        "height": "172",
+        "weight": "72",
+        "goal": "athletic recovery and maintenance",
+        "restrictions": "dairy-free"
+      },
+      "solutionCriteria": [
+        "Meal plan contains exactly 4 meals (breakfast, lunch, dinner, snack) appropriate for a single day",
+        "All meals are dairy-free with no milk, cheese, yogurt, or butter",
+        "Meals include adequate protein and carbohydrates to support athletic recovery for a 72kg athlete",
+        "Meals are realistic, practical, and concise without excessive detail or preparation complexity"
+      ],
+      "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with an extreme case: very young or very old athlete (implied age extremes) with moderate stats (e.g., 172cm, 72kg) aiming for athletic recovery/maintenance with a single common restriction (e.g., dairy-free) - assesses whether the prompt produces realistic, age-appropriate meals that balance recovery nutrition with dietary needs"
+    },
+    "score": 4,
+    "reasoning": "The solution provides nutritionally sound and dairy-free content that would support athletic recovery. However, it contains a critical violation of the secondary criteria: the task explicitly requires 'exactly 4 meals (breakfast, lunch, dinner, snack)' but the solution provides 6 eating occasions. Additionally, while the mandatory requirements are technically met, the solution prioritizes comprehensiveness over the requested 'compact, concise' format. The extra detail (hydration notes, timing guidelines, budget-consciousness mention) goes beyond what was asked for and contradicts the conciseness requirement."
+  }
+]

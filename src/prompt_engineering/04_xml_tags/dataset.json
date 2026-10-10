@@ -1,0 +1,50 @@
+[
+  {
+    "promptInputs": {
+      "height": "185",
+      "weight": "68",
+      "goal": "muscle building",
+      "restrictions": "none"
+    },
+    "solutionCriteria": [
+      "Meal plan includes caloric surplus appropriate for lean mass gain (approximately 300-500 kcal above maintenance)",
+      "Macronutrient distribution prioritizes protein intake of at least 1.6-2.2g per kg body weight",
+      "Plan is formatted as a single day with 3-4 meals/snacks and includes meal timing or composition notes",
+      "All meals are realistic, practical, and achievable for a single athlete without specialized ingredients"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a tall, lightweight endurance athlete (e.g., 185cm, 68kg) with a muscle-building goal and no dietary restrictions - verifies the prompt calculates appropriate caloric surplus and macronutrient distribution for lean mass gain"
+  },
+  {
+    "promptInputs": {
+      "height": "168",
+      "weight": "95",
+      "goal": "weight loss",
+      "restrictions": "vegetarian, gluten-free, nut allergy"
+    },
+    "solutionCriteria": [
+      "Meal plan includes exactly 1 day with breakfast, lunch, dinner, and snacks",
+      "All meals are vegetarian, gluten-free, and contain no nuts",
+      "Meals support weight loss with appropriate caloric deficit for the athlete's profile",
+      "Nutritional balance is maintained across macronutrients (protein, carbs, fats)"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a shorter, heavier strength athlete (e.g., 168cm, 95kg) pursuing weight loss with multiple restrictions (vegetarian, gluten-free, nut allergy) - evaluates whether the prompt adapts meal suggestions while maintaining nutritional completeness within constraints"
+  },
+  {
+    "promptInputs": {
+      "height": "172",
+      "weight": "72",
+      "goal": "athletic recovery and maintenance",
+      "restrictions": "dairy-free"
+    },
+    "solutionCriteria": [
+      "Meal plan contains exactly 4 meals (breakfast, lunch, dinner, snack) appropriate for a single day",
+      "All meals are dairy-free with no milk, cheese, yogurt, or butter",
+      "Meals include adequate protein and carbohydrates to support athletic recovery for a 72kg athlete",
+      "Meals are realistic, practical, and concise without excessive detail or preparation complexity"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an extreme case: very young or very old athlete (implied age extremes) with moderate stats (e.g., 172cm, 72kg) aiming for athletic recovery/maintenance with a single common restriction (e.g., dairy-free) - assesses whether the prompt produces realistic, age-appropriate meals that balance recovery nutrition with dietary needs"
+  }
+]

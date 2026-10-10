@@ -1,0 +1,49 @@
+[
+  {
+    "promptInputs": {
+      "height": "178 cm",
+      "weight": "75 kg",
+      "goal": "muscle building",
+      "restrictions": "vegetarian, gluten-free"
+    },
+    "solutionCriteria": [
+      "Meal plan is compact and covers one full day with clear meal timing",
+      "All meals are vegetarian and gluten-free with no restricted ingredients",
+      "Daily protein intake meets or exceeds 120g to support muscle-building goals",
+      "Plan is practical and realistic for a single athlete to prepare"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an athlete having multiple dietary restrictions (vegetarian + gluten-free) and a muscle-building goal to ensure the meal plan accommodates all constraints while meeting protein requirements"
+  },
+  {
+    "promptInputs": {
+      "height": "198 cm",
+      "weight": "95 kg",
+      "goal": "endurance training",
+      "restrictions": "none"
+    },
+    "solutionCriteria": [
+      "Meal plan contains 4-5 meals scaled to approximately 3,500-4,000 calories appropriate for a tall, heavy endurance athlete",
+      "Includes carbohydrate-rich foods (60%+ of calories) suitable for endurance training",
+      "Plan is presented in a compact, single-day format with clear meal timing"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with extreme athlete profiles (very tall/heavy endurance athlete vs. short/light sprinter) to verify the meal plan scales appropriately for different body compositions and caloric needs"
+  },
+  {
+    "promptInputs": {
+      "height": "180",
+      "weight": "82",
+      "goal": "lose 3kg in 2 weeks for competition weigh-in while maintaining athletic performance",
+      "restrictions": "allergic to nuts and dairy"
+    },
+    "solutionCriteria": [
+      "Meal plan spans exactly 1 day with breakfast, lunch, dinner, and snacks",
+      "All meals and snacks are free from nuts and dairy",
+      "Plan supports weight loss goal through appropriate caloric deficit",
+      "Includes sufficient protein and carbohydrates to maintain athletic performance"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an athlete having a specific performance goal (weight loss for competition) combined with common food allergies (nuts, dairy) to ensure the plan is both goal-oriented and safe"
+  }
+]

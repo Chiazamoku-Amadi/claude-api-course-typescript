@@ -1,0 +1,64 @@
+[
+  {
+    "output": "# Nutrition Plan for Muscle Building (Vegetarian & Gluten-Free)\n\n## Daily Calorie & Macro Targets\n- **Calories**: ~2,500-2,800/day (depending on activity level)\n- **Protein**: 120-150g/day (1.6-2g per kg bodyweight)\n- **Carbs**: 300-375g/day\n- **Fats**: 70-90g/day\n\n## Protein Sources (Essential)\n- Greek yogurt & cottage cheese\n- Eggs & egg whites\n- Legumes: lentils, chickpeas, black beans\n- Tofu & tempeh\n- Quinoa\n- Nuts & seeds\n- Protein powder (whey or plant-based)\n\n## Quality Carbs (Gluten-Free)\n- Rice, quinoa, potatoes\n- Oats (certified gluten-free)\n- Corn, sweet potatoes\n- Fruits & berries\n\n## Healthy Fats\n- Olive oil, avocado oil\n- Nuts & nut butters\n- Seeds (chia, flax, pumpkin)\n- Avocados\n\n## Sample Day Structure\n- **Breakfast**: Eggs + oats + berries\n- **Snack**: Greek yogurt + granola\n- **Lunch**: Lentil bowl + rice + vegetables\n- **Snack**: Protein shake + fruit\n- **Dinner**: Tofu/tempeh stir-fry + quinoa\n\n**Important**: Combine this with strength training and adequate sleep for optimal results.",
+    "testCase": {
+      "promptInputs": {
+        "height": "178 cm",
+        "weight": "75 kg",
+        "goal": "muscle building",
+        "restrictions": "vegetarian, gluten-free"
+      },
+      "solutionCriteria": [
+        "Meal plan is compact and covers one full day with clear meal timing",
+        "All meals are vegetarian and gluten-free with no restricted ingredients",
+        "Daily protein intake meets or exceeds 120g to support muscle-building goals",
+        "Plan is practical and realistic for a single athlete to prepare"
+      ],
+      "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with an athlete having multiple dietary restrictions (vegetarian + gluten-free) and a muscle-building goal to ensure the meal plan accommodates all constraints while meeting protein requirements"
+    },
+    "score": 3,
+    "reasoning": "While the solution demonstrates strong nutritional knowledge and properly addresses dietary restrictions, it fundamentally fails all three mandatory requirements. The task explicitly requires 'exact foods, portions, and timing' along with 'daily caloric total' and 'macronutrient breakdown.' The solution provides only a generic framework and sample meal ideas without the concrete specifications needed for an athlete to execute the plan. A user cannot follow this plan without making significant assumptions about portion sizes, and cannot verify whether it meets the 120g protein requirement. This is a structural failure to deliver the requested output format."
+  },
+  {
+    "output": "# Nutrition Plan for Endurance Training\n\n## Daily Calorie Intake\n**2,800-3,200 calories/day** (depending on training intensity)\n- Your BMR is ~1,900 cal; endurance training adds 900-1,300 cal\n\n## Macronutrient Breakdown\n\n| Nutrient | Amount | Purpose |\n|----------|--------|---------|\n| **Carbs** | 55-60% (385-480g) | Primary fuel for endurance |\n| **Protein** | 15-17% (105-135g) | Recovery & muscle maintenance |\n| **Fat** | 20-25% (62-89g) | Energy & hormone production |\n\n## Food Priorities\n\n**Complex Carbs** (emphasized for endurance)\n- Oats, rice, quinoa, whole grain bread\n- Sweet potatoes, beans, lentils\n- Pasta, barley\n\n**Lean Proteins**\n- Chicken, turkey, fish\n- Eggs, Greek yogurt, cottage cheese\n- Legumes\n\n**Healthy Fats**\n- Olive oil, avocados, nuts\n- Fatty fish (salmon, mackerel)\n- Seeds\n\n**Fruits & Vegetables**\n- For carbs, electrolytes, antioxidants\n\n## Timing Tip\n- Pre-workout: carbs + moderate protein (2-3 hrs before)\n- Post-workout: carbs + protein within 30-60 min\n\n**Note:** Adjust based on actual training volume and performance. Consider consulting a sports nutritionist for personalized optimization.",
+    "testCase": {
+      "promptInputs": {
+        "height": "198 cm",
+        "weight": "95 kg",
+        "goal": "endurance training",
+        "restrictions": "none"
+      },
+      "solutionCriteria": [
+        "Meal plan contains 4-5 meals scaled to approximately 3,500-4,000 calories appropriate for a tall, heavy endurance athlete",
+        "Includes carbohydrate-rich foods (60%+ of calories) suitable for endurance training",
+        "Plan is presented in a compact, single-day format with clear meal timing"
+      ],
+      "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with extreme athlete profiles (very tall/heavy endurance athlete vs. short/light sprinter) to verify the meal plan scales appropriately for different body compositions and caloric needs"
+    },
+    "score": 3,
+    "reasoning": "The solution violates multiple mandatory requirements. While it includes daily caloric total and macronutrient breakdown, it completely fails to provide actual meals with exact foods, portions, and timing. Instead, it offers only general food categories. Additionally, the caloric recommendation of 2,800-3,200 is substantially lower than the 3,500-4,000 requirement specified in the criteria for a tall (198cm), heavy (95kg) endurance athlete. The solution reads as nutritional guidance rather than a concrete 1-day meal plan. It does not meet the secondary criteria of containing 4-5 meals in a compact single-day format."
+  },
+  {
+    "output": "# Realistic Assessment First\n\n**Losing 3kg in 2 weeks is aggressive and risky.** This is ~1.5kg/week, mostly unsustainable water/muscle loss. For competition, this approach risks:\n- Performance decline\n- Dehydration\n- Muscle loss\n- Injury/fatigue\n\n**Better approach:** Lose 1-1.5kg now, achieve final 1.5kg through controlled dehydration 24-48 hours before weigh-in (with medical supervision).\n\n---\n\n## If Proceeding Carefully\n\n**Calorie deficit:** ~500-750 kcal/day below maintenance (likely 2500-2800 kcal)\n- Target: ~1800-2000 kcal/day\n- Prioritize protein to minimize muscle loss\n\n### Sample Daily Structure\n\n**Protein sources** (prioritize these):\n- Lean meat/fish (chicken, turkey, salmon, lean beef)\n- Eggs\n- Plant-based: lentils, chickpeas, tofu, tempeh\n- Protein powder (pea/rice based)\n\n**Sample meals:**\n- **Breakfast:** Eggs + rice cakes + berries\n- **Lunch:** Grilled chicken + sweet potato + vegetables\n- **Snack:** Protein shake (non-dairy) + fruit\n- **Dinner:** Fish + brown rice + broccoli\n\n**Hydration:** 3-4L daily (don't dehydrate early)\n\n---\n\n## Critical: Consult your coach/sports nutritionist\nThey should oversee this protocol given competition demands.",
+    "testCase": {
+      "promptInputs": {
+        "height": "180",
+        "weight": "82",
+        "goal": "lose 3kg in 2 weeks for competition weigh-in while maintaining athletic performance",
+        "restrictions": "allergic to nuts and dairy"
+      },
+      "solutionCriteria": [
+        "Meal plan spans exactly 1 day with breakfast, lunch, dinner, and snacks",
+        "All meals and snacks are free from nuts and dairy",
+        "Plan supports weight loss goal through appropriate caloric deficit",
+        "Includes sufficient protein and carbohydrates to maintain athletic performance"
+      ],
+      "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with an athlete having a specific performance goal (weight loss for competition) combined with common food allergies (nuts, dairy) to ensure the plan is both goal-oriented and safe"
+    },
+    "score": 2,
+    "reasoning": "The solution provides valuable contextual advice and safety warnings about the aggressive weight loss goal, which shows good judgment. However, it fundamentally fails to deliver what was requested: a concrete 1-day meal plan. The solution offers only a generic framework (breakfast/lunch/snack/dinner structure) without specific foods, portion sizes, meal timing, or any nutritional calculations. All three mandatory requirements are violated: no daily caloric total, no macronutrient breakdown, and no detailed meal plan with exact portions and timing. While the guidance is sensible, it does not meet the core deliverable specifications."
+  }
+]

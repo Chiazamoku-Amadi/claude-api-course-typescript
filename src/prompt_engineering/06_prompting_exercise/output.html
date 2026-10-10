@@ -1,0 +1,234 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prompt Evaluation Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                color: #333;
+            }
+            .header {
+                background-color: #f0f0f0;
+                padding: 20px;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .summary-stats {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            .stat-box {
+                background-color: #fff;
+                border-radius: 5px;
+                padding: 15px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                flex-basis: 30%;
+                min-width: 200px;
+            }
+            .stat-value {
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th {
+                background-color: #4a4a4a;
+                color: white;
+                text-align: left;
+                padding: 12px;
+            }
+            td {
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                vertical-align: top;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .output-cell {
+                white-space: pre-wrap;
+            }
+            .score {
+                font-weight: bold;
+                padding: 5px 10px;
+                border-radius: 3px;
+                display: inline-block;
+            }
+            .score-high {
+                background-color: #c8e6c9;
+                color: #2e7d32;
+            }
+            .score-medium {
+                background-color: #fff9c4;
+                color: #f57f17;
+            }
+            .score-low {
+                background-color: #ffcdd2;
+                color: #c62828;
+            }
+            .output {
+                overflow: auto;
+                white-space: pre-wrap;
+            }
+
+            .output pre {
+                background-color: #f5f5f5;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 10px;
+                margin: 0;
+                font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+                font-size: 14px;
+                line-height: 1.4;
+                color: #333;
+                box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+                overflow-x: auto;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+
+            td {
+                width: 20%;
+            }
+            .score-col {
+                width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Prompt Evaluation Report</h1>
+            <div class="summary-stats">
+                <div class="stat-box">
+                    <div>Total Test Cases</div>
+                    <div class="stat-value">3</div>
+                </div>
+                <div class="stat-box">
+                    <div>Average Score</div>
+                    <div class="stat-value">9.0 / 10</div>
+                </div>
+                <div class="stat-box">
+                    <div>Pass Rate (≥7)</div>
+                    <div class="stat-value">100.0%</div>
+                </div>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Scenario</th>
+                    <th>Prompt Inputs</th>
+                    <th>Solution Criteria</th>
+                    <th>Output</th>
+                    <th>Score</th>
+                    <th>Reasoning</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            <tr>
+                <td>Testing with interdisciplinary content mixing humanities and social sciences to evaluate topic extraction across multiple academic domains</td>
+                <td class="prompt-inputs"><strong>content:</strong> This study examines the intersection of digital labor practices and cultural identity formation in contemporary urban communities. Drawing from ethnographic fieldwork conducted across three metropolitan areas, we analyze how gig economy participation shapes social belonging and collective memory among immigrant workers. Our findings reveal that algorithmic management systems not only structure economic activity but also influence linguistic choices and intergenerational knowledge transmission. Furthermore, we document how workers leverage social media platforms to construct counter-narratives that challenge dominant labor market representations, thereby engaging in what we term 'narrative resistance.' The research bridges sociology, anthropology, and media studies to demonstrate that economic systems are fundamentally intertwined with processes of identity construction and cultural reproduction.</td>
+                <td class="criteria">• Extracts topics spanning multiple academic domains (sociology, anthropology, media studies, economics)<br>• Identifies both explicit topics (gig economy, algorithmic management, social media) and implicit themes (cultural identity, intergenerational knowledge)<br>• Returns output as a JSON array of strings with no duplicate or overly generic entries</td>
+                <td class="output"><pre>```json
+[
+  "Digital labor practices",
+  "Cultural identity formation",
+  "Gig economy",
+  "Social belonging",
+  "Collective memory",
+  "Immigrant workers",
+  "Algorithmic management",
+  "Linguistic choices",
+  "Intergenerational knowledge transmission",
+  "Social media platforms",
+  "Narrative resistance",
+  "Labor market representations",
+  "Identity construction",
+  "Cultural reproduction",
+  "Ethnographic fieldwork",
+  "Urban communities"
+]
+```</pre></td>
+                <td class="score-col"><span class="score score-high">9</span></td>
+                <td class="reasoning">The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings with no extra commentary, contains topics mentioned in the article, and has no duplicates or overly generic entries. It meets the secondary criteria by identifying both explicit topics (gig economy, algorithmic management, social media) and implicit themes (cultural identity, intergenerational knowledge transmission, narrative resistance), and spans multiple academic domains. The two minor weaknesses—inclusion of methodological/contextual elements rather than pure topics—are marginal issues that don't significantly detract from an otherwise excellent extraction. The solution demonstrates strong comprehension of the passage's content.</td>
+            </tr>
+        
+            <tr>
+                <td>Testing with dense technical passage containing specialized jargon and acronyms to assess handling of domain-specific terminology as distinct topics</td>
+                <td class="prompt-inputs"><strong>content:</strong> Recent advances in CRISPR-Cas9 gene editing have revolutionized molecular biology research, enabling precise modifications of DNA sequences with unprecedented accuracy. The mechanism relies on guide RNA (gRNA) complexes that direct the Cas9 nuclease to specific genomic loci, where double-strand breaks (DSBs) are introduced and subsequently repaired through non-homologous end joining (NHEJ) or homology-directed repair (HDR) pathways. Off-target effects remain a significant challenge, with whole-genome sequencing (WGS) and chromatin immunoprecipitation sequencing (ChIP-seq) employed to assess unintended modifications. Applications span therapeutic genome editing for monogenic disorders, CAR-T cell engineering in immunotherapy, and multiplex editing strategies utilizing CRISPR arrays. Recent developments in base editing (BE) and prime editing (PE) technologies offer alternative approaches that minimize DSBs while maintaining high editing efficiency, with potential implications for treating inherited retinal dystrophies and hemoglobinopathies.</td>
+                <td class="criteria">• Extracts all domain-specific acronyms and technical terms as distinct topics (CRISPR-Cas9, gRNA, DSBs, NHEJ, HDR, WGS, ChIP-seq, CAR-T, BE, PE)<br>• Includes broader scientific concepts and methodologies mentioned (gene editing, genome editing, base editing, prime editing)<br>• Returns output as a valid JSON array of strings<br>• Correctly identifies specialized terminology unique to molecular biology and genomics fields</td>
+                <td class="output"><pre>```json
+[
+  "CRISPR-Cas9 gene editing",
+  "Molecular biology",
+  "DNA sequence modification",
+  "Guide RNA (gRNA)",
+  "Cas9 nuclease",
+  "Double-strand breaks (DSBs)",
+  "Non-homologous end joining (NHEJ)",
+  "Homology-directed repair (HDR)",
+  "Off-target effects",
+  "Whole-genome sequencing (WGS)",
+  "Chromatin immunoprecipitation sequencing (ChIP-seq)",
+  "Therapeutic genome editing",
+  "Monogenic disorders",
+  "CAR-T cell engineering",
+  "Immunotherapy",
+  "Multiplex editing",
+  "CRISPR arrays",
+  "Base editing (BE)",
+  "Prime editing (PE)",
+  "Inherited retinal dystrophies",
+  "Hemoglobinopathies"
+]
+```</pre></td>
+                <td class="score-col"><span class="score score-high">9</span></td>
+                <td class="reasoning">The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings containing topics from the article with no extra commentary. It meets all secondary criteria by extracting domain-specific acronyms, technical terms, and broader scientific concepts. The extraction is thorough and accurate, capturing the essential topics from the CRISPR-focused passage. While some entries could be debated as to whether they represent distinct 'topics' versus descriptive phrases, this is a minor stylistic consideration that doesn't violate the stated criteria. The solution demonstrates strong understanding of molecular biology terminology and appropriate topic extraction.</td>
+            </tr>
+        
+            <tr>
+                <td>Testing with narrative-heavy historical or literary analysis passage to evaluate topic extraction from contextual prose without explicit topic markers</td>
+                <td class="prompt-inputs"><strong>content:</strong> The modernist movement's fragmentation of narrative form fundamentally challenged nineteenth-century conventions of linear storytelling. Through stream-of-consciousness techniques and temporal discontinuity, writers like Joyce and Woolf explored the subjective nature of human consciousness, dismantling the omniscient narrator's authority. This stylistic rupture coincided with broader cultural upheavals—the trauma of World War I, the rise of Freudian psychology, and technological acceleration—which collectively reshaped how literature could represent reality. The movement's experimental aesthetics, while initially alienating to general audiences, eventually established new critical frameworks that privileged psychological depth and formal innovation over plot coherence and moral instruction.</td>
+                <td class="criteria">• Extracts key conceptual topics from contextual prose without explicit topic labels<br>• Identifies both literary techniques and broader historical/cultural contexts mentioned<br>• Returns results as a JSON array of strings</td>
+                <td class="output"><pre>```json
+[
+  "Modernist movement",
+  "Narrative fragmentation",
+  "Linear storytelling",
+  "Stream-of-consciousness",
+  "Temporal discontinuity",
+  "Subjective consciousness",
+  "Omniscient narrator",
+  "World War I",
+  "Freudian psychology",
+  "Technological acceleration",
+  "Experimental aesthetics",
+  "Psychological depth",
+  "Formal innovation",
+  "Plot coherence",
+  "Moral instruction"
+]
+```</pre></td>
+                <td class="score-col"><span class="score score-high">9</span></td>
+                <td class="reasoning">The solution meets all mandatory requirements: it is a valid JSON array of strings containing topics from the passage, with clean topic labels and no extra commentary. It successfully identifies key literary techniques and historical/cultural contexts as required by the secondary criteria. The extraction is thorough and contextually appropriate. Minor weaknesses exist in the inclusion of a few peripheral concepts, but these are borderline cases and don't significantly detract from the overall quality of the extraction.</td>
+            </tr>
+        
+            </tbody>
+        </table>
+    </body>
+    </html>
+    

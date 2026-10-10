@@ -1,0 +1,39 @@
+[
+  {
+    "promptInputs": {
+      "content": "This study examines the intersection of digital labor practices and cultural identity formation in contemporary urban communities. Drawing from ethnographic fieldwork conducted across three metropolitan areas, we analyze how gig economy participation shapes social belonging and collective memory among immigrant workers. Our findings reveal that algorithmic management systems not only structure economic activity but also influence linguistic choices and intergenerational knowledge transmission. Furthermore, we document how workers leverage social media platforms to construct counter-narratives that challenge dominant labor market representations, thereby engaging in what we term 'narrative resistance.' The research bridges sociology, anthropology, and media studies to demonstrate that economic systems are fundamentally intertwined with processes of identity construction and cultural reproduction."
+    },
+    "solutionCriteria": [
+      "Extracts topics spanning multiple academic domains (sociology, anthropology, media studies, economics)",
+      "Identifies both explicit topics (gig economy, algorithmic management, social media) and implicit themes (cultural identity, intergenerational knowledge)",
+      "Returns output as a JSON array of strings with no duplicate or overly generic entries"
+    ],
+    "taskDescription": "Extract topics out of a passage of text from a scholarly article into a JSON array of strings",
+    "scenario": "Testing with interdisciplinary content mixing humanities and social sciences to evaluate topic extraction across multiple academic domains"
+  },
+  {
+    "promptInputs": {
+      "content": "Recent advances in CRISPR-Cas9 gene editing have revolutionized molecular biology research, enabling precise modifications of DNA sequences with unprecedented accuracy. The mechanism relies on guide RNA (gRNA) complexes that direct the Cas9 nuclease to specific genomic loci, where double-strand breaks (DSBs) are introduced and subsequently repaired through non-homologous end joining (NHEJ) or homology-directed repair (HDR) pathways. Off-target effects remain a significant challenge, with whole-genome sequencing (WGS) and chromatin immunoprecipitation sequencing (ChIP-seq) employed to assess unintended modifications. Applications span therapeutic genome editing for monogenic disorders, CAR-T cell engineering in immunotherapy, and multiplex editing strategies utilizing CRISPR arrays. Recent developments in base editing (BE) and prime editing (PE) technologies offer alternative approaches that minimize DSBs while maintaining high editing efficiency, with potential implications for treating inherited retinal dystrophies and hemoglobinopathies."
+    },
+    "solutionCriteria": [
+      "Extracts all domain-specific acronyms and technical terms as distinct topics (CRISPR-Cas9, gRNA, DSBs, NHEJ, HDR, WGS, ChIP-seq, CAR-T, BE, PE)",
+      "Includes broader scientific concepts and methodologies mentioned (gene editing, genome editing, base editing, prime editing)",
+      "Returns output as a valid JSON array of strings",
+      "Correctly identifies specialized terminology unique to molecular biology and genomics fields"
+    ],
+    "taskDescription": "Extract topics out of a passage of text from a scholarly article into a JSON array of strings",
+    "scenario": "Testing with dense technical passage containing specialized jargon and acronyms to assess handling of domain-specific terminology as distinct topics"
+  },
+  {
+    "promptInputs": {
+      "content": "The modernist movement's fragmentation of narrative form fundamentally challenged nineteenth-century conventions of linear storytelling. Through stream-of-consciousness techniques and temporal discontinuity, writers like Joyce and Woolf explored the subjective nature of human consciousness, dismantling the omniscient narrator's authority. This stylistic rupture coincided with broader cultural upheavals—the trauma of World War I, the rise of Freudian psychology, and technological acceleration—which collectively reshaped how literature could represent reality. The movement's experimental aesthetics, while initially alienating to general audiences, eventually established new critical frameworks that privileged psychological depth and formal innovation over plot coherence and moral instruction."
+    },
+    "solutionCriteria": [
+      "Extracts key conceptual topics from contextual prose without explicit topic labels",
+      "Identifies both literary techniques and broader historical/cultural contexts mentioned",
+      "Returns results as a JSON array of strings"
+    ],
+    "taskDescription": "Extract topics out of a passage of text from a scholarly article into a JSON array of strings",
+    "scenario": "Testing with narrative-heavy historical or literary analysis passage to evaluate topic extraction from contextual prose without explicit topic markers"
+  }
+]

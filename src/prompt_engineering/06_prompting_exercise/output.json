@@ -1,0 +1,54 @@
+[
+  {
+    "output": "```json\n[\n  \"Digital labor practices\",\n  \"Cultural identity formation\",\n  \"Gig economy\",\n  \"Social belonging\",\n  \"Collective memory\",\n  \"Immigrant workers\",\n  \"Algorithmic management\",\n  \"Linguistic choices\",\n  \"Intergenerational knowledge transmission\",\n  \"Social media platforms\",\n  \"Narrative resistance\",\n  \"Labor market representations\",\n  \"Identity construction\",\n  \"Cultural reproduction\",\n  \"Ethnographic fieldwork\",\n  \"Urban communities\"\n]\n```",
+    "testCase": {
+      "promptInputs": {
+        "content": "This study examines the intersection of digital labor practices and cultural identity formation in contemporary urban communities. Drawing from ethnographic fieldwork conducted across three metropolitan areas, we analyze how gig economy participation shapes social belonging and collective memory among immigrant workers. Our findings reveal that algorithmic management systems not only structure economic activity but also influence linguistic choices and intergenerational knowledge transmission. Furthermore, we document how workers leverage social media platforms to construct counter-narratives that challenge dominant labor market representations, thereby engaging in what we term 'narrative resistance.' The research bridges sociology, anthropology, and media studies to demonstrate that economic systems are fundamentally intertwined with processes of identity construction and cultural reproduction."
+      },
+      "solutionCriteria": [
+        "Extracts topics spanning multiple academic domains (sociology, anthropology, media studies, economics)",
+        "Identifies both explicit topics (gig economy, algorithmic management, social media) and implicit themes (cultural identity, intergenerational knowledge)",
+        "Returns output as a JSON array of strings with no duplicate or overly generic entries"
+      ],
+      "taskDescription": "Extract topics out of a passage of text from a scholarly article into a JSON array of strings",
+      "scenario": "Testing with interdisciplinary content mixing humanities and social sciences to evaluate topic extraction across multiple academic domains"
+    },
+    "score": 9,
+    "reasoning": "The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings with no extra commentary, contains topics mentioned in the article, and has no duplicates or overly generic entries. It meets the secondary criteria by identifying both explicit topics (gig economy, algorithmic management, social media) and implicit themes (cultural identity, intergenerational knowledge transmission, narrative resistance), and spans multiple academic domains. The two minor weaknesses—inclusion of methodological/contextual elements rather than pure topics—are marginal issues that don't significantly detract from an otherwise excellent extraction. The solution demonstrates strong comprehension of the passage's content."
+  },
+  {
+    "output": "```json\n[\n  \"CRISPR-Cas9 gene editing\",\n  \"Molecular biology\",\n  \"DNA sequence modification\",\n  \"Guide RNA (gRNA)\",\n  \"Cas9 nuclease\",\n  \"Double-strand breaks (DSBs)\",\n  \"Non-homologous end joining (NHEJ)\",\n  \"Homology-directed repair (HDR)\",\n  \"Off-target effects\",\n  \"Whole-genome sequencing (WGS)\",\n  \"Chromatin immunoprecipitation sequencing (ChIP-seq)\",\n  \"Therapeutic genome editing\",\n  \"Monogenic disorders\",\n  \"CAR-T cell engineering\",\n  \"Immunotherapy\",\n  \"Multiplex editing\",\n  \"CRISPR arrays\",\n  \"Base editing (BE)\",\n  \"Prime editing (PE)\",\n  \"Inherited retinal dystrophies\",\n  \"Hemoglobinopathies\"\n]\n```",
+    "testCase": {
+      "promptInputs": {
+        "content": "Recent advances in CRISPR-Cas9 gene editing have revolutionized molecular biology research, enabling precise modifications of DNA sequences with unprecedented accuracy. The mechanism relies on guide RNA (gRNA) complexes that direct the Cas9 nuclease to specific genomic loci, where double-strand breaks (DSBs) are introduced and subsequently repaired through non-homologous end joining (NHEJ) or homology-directed repair (HDR) pathways. Off-target effects remain a significant challenge, with whole-genome sequencing (WGS) and chromatin immunoprecipitation sequencing (ChIP-seq) employed to assess unintended modifications. Applications span therapeutic genome editing for monogenic disorders, CAR-T cell engineering in immunotherapy, and multiplex editing strategies utilizing CRISPR arrays. Recent developments in base editing (BE) and prime editing (PE) technologies offer alternative approaches that minimize DSBs while maintaining high editing efficiency, with potential implications for treating inherited retinal dystrophies and hemoglobinopathies."
+      },
+      "solutionCriteria": [
+        "Extracts all domain-specific acronyms and technical terms as distinct topics (CRISPR-Cas9, gRNA, DSBs, NHEJ, HDR, WGS, ChIP-seq, CAR-T, BE, PE)",
+        "Includes broader scientific concepts and methodologies mentioned (gene editing, genome editing, base editing, prime editing)",
+        "Returns output as a valid JSON array of strings",
+        "Correctly identifies specialized terminology unique to molecular biology and genomics fields"
+      ],
+      "taskDescription": "Extract topics out of a passage of text from a scholarly article into a JSON array of strings",
+      "scenario": "Testing with dense technical passage containing specialized jargon and acronyms to assess handling of domain-specific terminology as distinct topics"
+    },
+    "score": 9,
+    "reasoning": "The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings containing topics from the article with no extra commentary. It meets all secondary criteria by extracting domain-specific acronyms, technical terms, and broader scientific concepts. The extraction is thorough and accurate, capturing the essential topics from the CRISPR-focused passage. While some entries could be debated as to whether they represent distinct 'topics' versus descriptive phrases, this is a minor stylistic consideration that doesn't violate the stated criteria. The solution demonstrates strong understanding of molecular biology terminology and appropriate topic extraction."
+  },
+  {
+    "output": "```json\n[\n  \"Modernist movement\",\n  \"Narrative fragmentation\",\n  \"Linear storytelling\",\n  \"Stream-of-consciousness\",\n  \"Temporal discontinuity\",\n  \"Subjective consciousness\",\n  \"Omniscient narrator\",\n  \"World War I\",\n  \"Freudian psychology\",\n  \"Technological acceleration\",\n  \"Experimental aesthetics\",\n  \"Psychological depth\",\n  \"Formal innovation\",\n  \"Plot coherence\",\n  \"Moral instruction\"\n]\n```",
+    "testCase": {
+      "promptInputs": {
+        "content": "The modernist movement's fragmentation of narrative form fundamentally challenged nineteenth-century conventions of linear storytelling. Through stream-of-consciousness techniques and temporal discontinuity, writers like Joyce and Woolf explored the subjective nature of human consciousness, dismantling the omniscient narrator's authority. This stylistic rupture coincided with broader cultural upheavals—the trauma of World War I, the rise of Freudian psychology, and technological acceleration—which collectively reshaped how literature could represent reality. The movement's experimental aesthetics, while initially alienating to general audiences, eventually established new critical frameworks that privileged psychological depth and formal innovation over plot coherence and moral instruction."
+      },
+      "solutionCriteria": [
+        "Extracts key conceptual topics from contextual prose without explicit topic labels",
+        "Identifies both literary techniques and broader historical/cultural contexts mentioned",
+        "Returns results as a JSON array of strings"
+      ],
+      "taskDescription": "Extract topics out of a passage of text from a scholarly article into a JSON array of strings",
+      "scenario": "Testing with narrative-heavy historical or literary analysis passage to evaluate topic extraction from contextual prose without explicit topic markers"
+    },
+    "score": 9,
+    "reasoning": "The solution meets all mandatory requirements: it is a valid JSON array of strings containing topics from the passage, with clean topic labels and no extra commentary. It successfully identifies key literary techniques and historical/cultural contexts as required by the secondary criteria. The extraction is thorough and contextually appropriate. Minor weaknesses exist in the inclusion of a few peripheral concepts, but these are borderline cases and don't significantly detract from the overall quality of the extraction."
+  }
+]

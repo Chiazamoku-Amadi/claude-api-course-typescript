@@ -1,0 +1,49 @@
+[
+  {
+    "promptInputs": {
+      "height": "185",
+      "weight": "68",
+      "goal": "marathon training",
+      "restrictions": "none"
+    },
+    "solutionCriteria": [
+      "Meal plan contains 4-6 meals/snacks distributed throughout the day with appropriate caloric density for a 68kg endurance athlete",
+      "Carbohydrates comprise 55-65% of total daily calories to support distance training demands",
+      "Includes adequate hydration guidance (water intake and/or electrolyte beverage recommendations) appropriate for an endurance athlete",
+      "All meals are practical, compact, and realistically consumable within a single day"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a tall, lightweight endurance athlete (e.g., 185cm, 68kg) with a running/marathon goal and no dietary restrictions to verify the meal plan prioritizes carbohydrates and hydration appropriate for distance training"
+  },
+  {
+    "promptInputs": {
+      "height": "168",
+      "weight": "95",
+      "goal": "muscle gain",
+      "restrictions": "vegetarian, nut allergy"
+    },
+    "solutionCriteria": [
+      "Meal plan covers one full day with breakfast, lunch, dinner, and snacks",
+      "Provides adequate protein from vegetarian sources (legumes, dairy, tofu, seeds) without nuts",
+      "Supports muscle gain goals for a 95kg athlete with appropriate caloric and macronutrient density"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a shorter, heavier strength athlete (e.g., 168cm, 95kg) focused on muscle gain with multiple dietary restrictions (vegetarian, nut allergy) to ensure the plan provides adequate protein from alternative sources while respecting constraints"
+  },
+  {
+    "promptInputs": {
+      "height": "175",
+      "weight": "75",
+      "goal": "weight loss",
+      "restrictions": "vegan"
+    },
+    "solutionCriteria": [
+      "Meal plan is 1 day with all meals and snacks included",
+      "All foods are vegan with no animal products",
+      "Creates a caloric deficit appropriate for cutting while maintaining adequate protein and micronutrients",
+      "Meals are practical and concise without excessive detail"
+    ],
+    "taskDescription": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an average-build athlete (e.g., 175cm, 75kg) with a weight loss/cutting goal and a vegan dietary restriction to verify the meal plan maintains caloric deficit while meeting nutritional needs without animal products"
+  }
+]
